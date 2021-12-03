@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('abc') {
+            steps {
+                echo '`123'
+            }
+        }
+         stage('efg') {
+            steps {
+                echo '456'
+            }
+        }
+         stage('hij') {
+            steps {
+                echo '789'
+            }
+        }
+         stage('klm') {
+            steps {
+                echo '10.11.12'
+            }
+        }
+    }
+}
